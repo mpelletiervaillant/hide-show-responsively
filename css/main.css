@@ -85,47 +85,43 @@ img:nth-last-child(2){
   img:first-child {
     display: none;
     width: 32%;
-    padding: .5rem;
-
+    padding: 0;
   }
 
   img:nth-last-child(3) {
     display: inline-block;
-    padding: .5rem;
-    padding-right: 0;
     width: 32%;
+    padding: 0;
   }
 
   img:nth-last-child(2) {
     display: inline-block;
     width: 32%;
-    padding: .5rem;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
   }
 
   img:last-child {
     display: inline-block;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
+    width: 32%;
   }
 
 @media only screen and (min-width: 60em) {
 
   img:first-child {
     display: inline;
-    width: 24%
+    width: 24.5%
   }
 
   img:nth-last-child(2) {
-    width: 24%
+    width: 24.5%
   }
 
   img:last-child {
-    width: 24%;
+    width: 24.5%;
   }
 
   img:nth-last-child(3) {
-    width: 24%;
+    width: 24.5%;
   }
 }
